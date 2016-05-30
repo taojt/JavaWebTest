@@ -8,9 +8,16 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>javabeane</title>
 </head>
 <body>
+<%
+    Person p1 = new Person();
+    p1.setName("wawa");
+    p1.setAge(23);
 
+%>
+<%= p1.getName()%>
+<%= p1.getAge()%>
 </body>
 </html>
