@@ -11,7 +11,7 @@
     <title>javabeane</title>
 </head>
 <body>
-<%
+<%·
     Person p1 = new Person();
     p1.setName("wawa");
     p1.setAge(23);
